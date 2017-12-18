@@ -65,9 +65,11 @@ p {
   width: 40%;
   float: right;
   height: 100vh;
-  background-image: url("img1.jpg");
-  background-size: cover;
-  overflow: 
+}
+
+.article3 img {
+  height: 100%;
+  width: 100%;
 }
 
 .article4 {
@@ -99,4 +101,71 @@ p {
   float: left;
   background-color: #E8713B;
 }
+
+@media only screen and (max-width: 500px) {
+
+  section {
+    min-width: 320px;
+    border: none;
+  }
+
+  article {
+    height: 200px;
+    width: 50%;
+    float: left;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .icon {
+    height: 40px;
+    width: 40px;
+    margin-top: 65px;
+  }
+
+  .article1{
+    width: 100%;
+  }
+
+  .article3 {
+    width: 100%;
+    float: left;
+    height: 500px;
+  }
+
+  .article3 img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .article4 {
+    float: right;
+  }
+
+  .article6 {
+    float: right;
+  }
+
+  .article8 {
+    float: right;
+  }
+
+  .article9 {
+    float: left;
+    background-color: #E16451;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
